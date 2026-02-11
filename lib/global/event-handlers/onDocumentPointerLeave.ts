@@ -12,6 +12,7 @@ export function onDocumentPointerLeave(event: PointerEvent) {
         hitRegions: interactionState.hitRegions,
         initialLayoutMap: interactionState.initialLayoutMap,
         mountedGroups,
+	pointerDownAtPoint: interactionState.pointerDownAtPoint,
         prevCursorFlags: cursorFlags
       });
     }
